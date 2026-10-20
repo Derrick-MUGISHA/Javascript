@@ -148,3 +148,29 @@ for (let i = 0; i < 5; i++) stars += "*";
 console.log(stars); 
 
 
+
+
+const level = "global";
+
+function show() {
+    const level = "local";
+    console.log(level);
+}
+
+console.log(level);
+
+
+
+tdz(); // function recursion
+
+function tdz() {
+ console.log("Hellow");
+}
+
+
+const zone = () => {
+    console.log("Hello from zone");
+}
+
+console.log(zone)
+
